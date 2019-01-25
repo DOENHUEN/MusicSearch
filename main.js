@@ -39,7 +39,6 @@ $(document).ready(function(){
     });
   });
 
-
   resultElement.on("click", ".searchResultItem", function(){
     let artistName = $(this).html();
     let artistID = $(this).data("id");
